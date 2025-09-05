@@ -16,7 +16,7 @@ C = Math.cos
 S = Math.sin
 t = 0
 T = Math.tan
-const shootSound = new Audio('Assets/Sounds/shoot.WAV')
+const shootSound = new Audio('Assets/Sounds/anoma.mp3')
 
 // Game state variables
 let gameStarted = false
@@ -1107,10 +1107,10 @@ async function Draw(){
     }
 
     sphereSrc = [
-    'https://i.ibb.co/60Tmdqz4/red.png',
-    'https://i.ibb.co/Z6MWhs6H/yellow.png',
-    'https://i.ibb.co/dJLZmJMY/teal.png',
-    'https://i.ibb.co/215FSXdW/blue.png',
+    'https://i.ibb.co/zWHdsjtC/k-rm-z.png',
+    'https://i.ibb.co/FkFS1jFD/sar.png',
+    'https://i.ibb.co/pBNvPFbF/beyaz.png',
+    'https://i.ibb.co/ynh52g7R/mavi.png',
     ]
     spheres = []
     sphereSrc.map(v => {
@@ -1160,7 +1160,7 @@ async function Draw(){
     }
     
     bg = new Image()
-    bg.src = 'https://i.ibb.co/bt8pj4x/bobble-board.png'
+    bg.src = 'https://i.ibb.co/5h26CtLP/background.png'
     
     
     //keys = Array(128).fill(false)
