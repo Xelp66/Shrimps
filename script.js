@@ -1160,7 +1160,7 @@ async function Draw(){
     }
     
     bg = new Image()
-    bg.src = 'https://i.ibb.co/r28W3pxg/image-9.png'
+    bg.src = 'https://i.ibb.co/svjcDC4Q/image-10.png'
     
     
     //keys = Array(128).fill(false)
